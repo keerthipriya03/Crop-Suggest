@@ -4,13 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Document</title>
+    <link rel="stylesheet" href="next.css">
 </head>
 <body>
-    <h1>Welcome to Crop Fetcher</h1>
-    <p>By this website you can identify the suitable crop based on various conditions.</p>
-    <h2>Rules to be followed</h2>
-    <ul>
-        <li>Step1: Enter the ph Value.</li>
-    </ul>
+    <div class="container">
+          <h1>Crop Suggestor</h1>
+          <label for="pH">Enter the pH value:</label>
+          <input type="number" id="pH">
+
+          <label for="colour">Select the colour of your Soil</label>
+         <div class="radio-container">
+          <input type="radio" id="option1" name="option" value="option1">
+       <label for="option1">
+            <img src="Black-Soil.jpg" alt="Option 1">
+        </label>
+
+        <input type="radio" id="option2" name="option" value="option2">
+        <label for="option2">
+            <img src="brown.avif" alt="Option 2">
+        </label>
+
+        <input type="radio" id="option3" name="option" value="option3">
+        <label for="option3">
+            <img src="gray.jpg" alt="Option 3">
+        </label>
+
+        <input type="radio" id="option4" name="option" value="option4">
+        <label for="option3">
+            <img src="red.jpg" alt="Option 4">
+        </label>
+
+        <input type="radio" id="option5" name="option" value="option5">
+        <label for="option5">
+            <img src="yellow.jpg" alt="Option 5">
+        </label>
+    </div>
+    </div>
 </body>
 </html>
